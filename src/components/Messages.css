@@ -1,0 +1,18 @@
+.messages {
+    display: flex;
+    justify-content: center;
+}
+
+.messages ul {
+    list-style: none;
+}
+
+.messages li {
+    text-align: left;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 10px;
+}

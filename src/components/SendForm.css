@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+}
+
+.form input {
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    padding: 1em 1.5em;
+    border: 1px solid #ccc;
+}
+
+.form button {
+    border-radius: 0 10px 10px 0;
+    padding: 0 1.5em;
+    outline: none;
+    border: 1px solid #ccc;
+    background: rgb(93, 250, 93);
+    font-size: 1em;
+}
+
+.form button:hover {
+    cursor: pointer;
+    background: rgb(102, 243, 102);
+}
